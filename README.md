@@ -1,60 +1,58 @@
-# 🌲 AI-Powered FRA Atlas & Decision Support System
+# 🌲 FRA Atlas Dashboard - UI Prototype
 
-A comprehensive dashboard for Forest Rights Act (FRA) management, featuring interactive mapping, analytics, and AI-powered decision support for forest officers and administrators.
+A **UI prototype/demo** for a Forest Rights Act (FRA) Atlas & Decision Support System. This is a frontend-only implementation showcasing the interface design and user experience for forest officers and administrators. **This is not a fully functional system** - it demonstrates the UI/UX design and layout for potential future development.
 
-![Next.js](https://img.shields.io/badge/Next.js-14.2.16-black)
-![React](https://img.shields.io/badge/React-18-blue)
-![TypeScript](https://img.shields.io/badge/TypeScript-5-orange)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4.1.9-blue)
-![License](https://img.shields.io/badge/License-MIT-green)
+## 🚀 UI Features (Demo/Prototype)
 
-## 🚀 Features
+> ⚠️ **Note**: These are UI mockups with static data for demonstration purposes only.
 
-### 🗺️ Interactive Map View
+### 🗺️ Interactive Map View (UI Mockup)
 
-- **Real-time FRA Claims Mapping** - Visualize individual forest rights, community rights, and community forest rights
-- **Village Boundaries & Assets** - Display agricultural land, forest areas, and water bodies
-- **Click-to-Explore** - Interactive features with detailed claim information
-- **Layer Management** - Toggle different map layers for better visualization
+- **Simulated FRA Claims Mapping** - Visual representation of forest rights interface
+- **Mock Village Boundaries & Assets** - Static display of agricultural land, forest areas, and water bodies
+- **Click-to-Explore Demo** - Interactive features with sample claim information
+- **Layer Management UI** - Toggle interface for different map layers
 
-### 📊 Analytics Dashboard
+### 📊 Analytics Dashboard (Static Charts)
 
-- **FRA Statistics** - Total claims, approval rates, and performance metrics
-- **Interactive Charts** - Pie charts for claim types and bar charts for monthly trends
-- **Real-time Progress Tracking** - Visual progress indicators for approval processes
-- **Quick Stats** - At-a-glance overview of approved and pending claims
+- **Sample FRA Statistics** - Mock data showing total claims, approval rates, and performance metrics
+- **Interactive Charts (Demo)** - Pie charts and bar charts with sample data
+- **Progress Indicators** - Visual progress bars with static values
+- **Quick Stats Display** - Mock overview of approved and pending claims
 
-### 🔍 Advanced Filtering
+### 🔍 Advanced Filtering (UI Only)
 
-- **Location-based Filters** - State, district, and village-level filtering
-- **Claim Type Filters** - IFR, CR, and CFR claim categorization
-- **Status-based Filtering** - Pending, approved, and rejected claim status
-- **Asset Mapping** - Filter by agriculture, forest, and water body assets
-- **Scheme Layering** - PM-KISAN, Jal Jeevan Mission, MGNREGA integration
+- **Location Filter Interface** - State, district, and village dropdowns (non-functional)
+- **Claim Type Filter UI** - IFR, CR, and CFR checkboxes (display only)
+- **Status Filter Interface** - Pending, approved, and rejected options (UI mockup)
+- **Asset Filter UI** - Agriculture, forest, and water body options (non-functional)
+- **Scheme Layer Interface** - PM-KISAN, Jal Jeevan Mission, MGNREGA toggles (UI only)
 
-### 🤖 AI Decision Support
+### 🤖 AI Decision Support (Mock Recommendations)
 
-- **Smart Recommendations** - AI-powered suggestions for claim prioritization
-- **Eligibility Assessment** - Automatic evaluation of scheme eligibility
-- **Risk Analysis** - Identification of high-priority areas requiring attention
-- **Policy Alignment** - Recommendations based on government schemes and policies
+- **Sample Recommendations** - Static AI-powered suggestions for demonstration
+- **Mock Eligibility Assessment** - Sample evaluation displays
+- **Static Risk Analysis** - Demo identification of priority areas
+- **Policy Alignment Display** - Sample recommendations based on government schemes
 
-### 🌐 Multi-language Support
+### 🌐 Multi-language Support (UI Demo)
 
-- **Local Language Support** - Hindi, Odia, Telugu, and English
-- **Accessibility** - Designed for forest officers across different regions
-- **Cultural Adaptation** - UI elements adapted for local contexts
+- **Language Toggle Interface** - Hindi, Odia, Telugu, and English options (UI only)
+- **Accessibility Design** - Interface designed for forest officers across regions
+- **Cultural UI Adaptation** - UI elements adapted for local contexts
 
 ## 🛠️ Technology Stack
 
 - **Frontend Framework**: Next.js 14.2.16 with App Router
 - **UI Library**: React 18 with TypeScript
 - **Styling**: Tailwind CSS 4.1.9 with custom design system
-- **Charts**: Recharts for data visualization
+- **Charts**: Recharts for data visualization (static data only)
 - **Icons**: Lucide React for consistent iconography
 - **Components**: Radix UI primitives for accessibility
-- **State Management**: React hooks and context
+- **State Management**: React hooks and context (local state only)
 - **Build Tool**: Next.js built-in bundler
+
+> 📝 **Important**: This is a frontend-only prototype. No backend services, databases, or APIs are implemented.
 
 ## 📦 Installation
 
@@ -68,7 +66,7 @@ A comprehensive dashboard for Forest Rights Act (FRA) management, featuring inte
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/fra-atlas-dashboard.git
+   git clone https://github.com/kehan-collab/fra_atlas_dashboard.git
    cd fra-atlas-dashboard
    ```
 
@@ -194,94 +192,25 @@ The dashboard is fully responsive and optimized for:
 - **Tablet** (768px - 1024px)
 - **Mobile** (320px - 767px)
 
-## 🌟 Features in Detail
+## 🌟 UI Features in Detail (Prototype Only)
 
-### Interactive Mapping
+### Interactive Mapping (Mock Interface)
 
-- **Geospatial Visualization**: Real-time rendering of FRA claims
-- **Feature Selection**: Click-to-view detailed claim information
-- **Layer Control**: Toggle different data layers for analysis
-- **Zoom & Pan**: Intuitive map navigation controls
+- **Simulated Geospatial Visualization**: Static rendering of sample FRA claims
+- **Demo Feature Selection**: Click-to-view sample claim information
+- **UI Layer Control**: Toggle interface for different data layers (non-functional)
+- **Mock Navigation**: Simulated zoom & pan controls (UI only)
 
-### Analytics & Reporting
+### Analytics & Reporting (Static Data)
 
-- **Performance Metrics**: Track approval rates and processing times
-- **Trend Analysis**: Historical data visualization
-- **Comparative Analysis**: District and village-level comparisons
-- **Export Functionality**: Generate reports for stakeholders
+- **Sample Performance Metrics**: Mock approval rates and processing times
+- **Static Trend Analysis**: Demo historical data visualization
+- **UI Comparative Analysis**: Interface for district and village-level comparisons
+- **Export UI**: Mock interface for report generation (non-functional)
 
-### AI-Powered Insights
+### AI-Powered Insights (Demo Interface)
 
-- **Predictive Analytics**: Forecast claim approval likelihood
-- **Resource Optimization**: Suggest optimal resource allocation
-- **Risk Assessment**: Identify potential bottlenecks
-- **Policy Compliance**: Ensure adherence to FRA guidelines
-
-## 🤝 Contributing
-
-We welcome contributions to improve the FRA Atlas Dashboard! Please follow these steps:
-
-1. **Fork the repository**
-2. **Create a feature branch**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. **Make your changes**
-4. **Commit your changes**
-   ```bash
-   git commit -m "Add your feature description"
-   ```
-5. **Push to your branch**
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-6. **Create a Pull Request**
-
-### Development Guidelines
-
-- Follow TypeScript best practices
-- Use Tailwind CSS for styling
-- Write meaningful commit messages
-- Add tests for new features
-- Update documentation as needed
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Forest Rights Act Implementation** - Supporting forest communities across India
-- **Open Source Community** - For the amazing tools and libraries
-- **Forest Officers** - For their valuable feedback and requirements
-- **Development Team** - For their dedication and expertise
-
-## 📞 Support
-
-For support, email support@fra-atlas.gov.in or create an issue in this repository.
-
-## 🔮 Roadmap
-
-### Phase 1 (Current)
-
-- ✅ Basic dashboard functionality
-- ✅ Interactive mapping
-- ✅ Analytics and reporting
-
-### Phase 2 (Upcoming)
-
-- 🔄 Mobile application
-- 🔄 Offline capability
-- 🔄 Advanced AI features
-
-### Phase 3 (Future)
-
-- 📋 Integration with government databases
-- 📋 Real-time data synchronization
-- 📋 Advanced analytics and ML models
-
----
-
-**Built with ❤️ for Forest Rights and Community Empowerment**
-
-_This dashboard is designed to streamline FRA claim processing and support forest officers in making informed decisions for the benefit of forest-dwelling communities._
+- **Mock Predictive Analytics**: Sample forecast displays
+- **UI Resource Optimization**: Interface for resource allocation suggestions
+- **Static Risk Assessment**: Demo identification of potential bottlenecks
+- **Policy Compliance UI**: Sample adherence displays
