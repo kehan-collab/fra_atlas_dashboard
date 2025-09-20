@@ -2,44 +2,6 @@
 
 A **UI prototype/demo** for a Forest Rights Act (FRA) Atlas & Decision Support System. This is a frontend-only implementation showcasing the interface design and user experience for forest officers and administrators. **This is not a fully functional system** - it demonstrates the UI/UX design and layout for potential future development.
 
-## 🚀 UI Features (Demo/Prototype)
-
-> ⚠️ **Note**: These are UI mockups with static data for demonstration purposes only.
-
-### 🗺️ Interactive Map View (UI Mockup)
-
-- **Simulated FRA Claims Mapping** - Visual representation of forest rights interface
-- **Mock Village Boundaries & Assets** - Static display of agricultural land, forest areas, and water bodies
-- **Click-to-Explore Demo** - Interactive features with sample claim information
-- **Layer Management UI** - Toggle interface for different map layers
-
-### 📊 Analytics Dashboard (Static Charts)
-
-- **Sample FRA Statistics** - Mock data showing total claims, approval rates, and performance metrics
-- **Interactive Charts (Demo)** - Pie charts and bar charts with sample data
-- **Progress Indicators** - Visual progress bars with static values
-- **Quick Stats Display** - Mock overview of approved and pending claims
-
-### 🔍 Advanced Filtering (UI Only)
-
-- **Location Filter Interface** - State, district, and village dropdowns (non-functional)
-- **Claim Type Filter UI** - IFR, CR, and CFR checkboxes (display only)
-- **Status Filter Interface** - Pending, approved, and rejected options (UI mockup)
-- **Asset Filter UI** - Agriculture, forest, and water body options (non-functional)
-- **Scheme Layer Interface** - PM-KISAN, Jal Jeevan Mission, MGNREGA toggles (UI only)
-
-### 🤖 AI Decision Support (Mock Recommendations)
-
-- **Sample Recommendations** - Static AI-powered suggestions for demonstration
-- **Mock Eligibility Assessment** - Sample evaluation displays
-- **Static Risk Analysis** - Demo identification of priority areas
-- **Policy Alignment Display** - Sample recommendations based on government schemes
-
-### 🌐 Multi-language Support (UI Demo)
-
-- **Language Toggle Interface** - Hindi, Odia, Telugu, and English options (UI only)
-- **Accessibility Design** - Interface designed for forest officers across regions
-- **Cultural UI Adaptation** - UI elements adapted for local contexts
 
 ## 🛠️ Technology Stack
 
